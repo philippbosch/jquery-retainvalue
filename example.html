@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <form>
+        <label>Name: <input type="text" name="name"></label></div>
+        <div><label>Age: <input type="number" name="age"></label></div>
+        <div><label><input type="radio" name="gender" value="male">male</label></div>
+        <div><label><input type="radio" name="gender" value="female">female</label></div>
+        <div><label>Country: <select name="country">
+            <option value=""></option>
+            <option value="IT">Italy</option>
+            <option value="UK">United Kingdom</option>
+            <option value="DE">Germany</option>
+        </select></div>
+        <input type="submit">
+    </form>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="jquery.retainvalue.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').retainvalue();
+        });
+    </script>
+</body>
+</html>
