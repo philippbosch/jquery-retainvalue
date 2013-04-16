@@ -7,7 +7,7 @@ This is a very simple library that you can use to have input fields of a form re
 Installation
 ------------
 
-1.  Download the latest version.
+1.  Download the [latest version](https://github.com/philippbosch/jquery-retainvalue/archive/master.zip).
 2.  Include `jquery.retainvalue.js` after jQuery: `<script src="path/to/jquery.retainvalue.js"></script>`
 3.  There is no third step.
 
